@@ -1,7 +1,7 @@
 # TÔ MÀU CHO ẢNH XÁM BẰNG CÔNG NGHỆ DEEP LEARNING
 **Tóm tắt đề tài:** Tô màu cho ảnh xám được lựa chọn rộng rãi cho các nghiên cứu khác nhau về đồ hoạ và thị giác máy tính. Gần đây với sự thành công của mạng nơ-ron, đặc biệt là với các phương pháp học sâu, U-net rất quan trọng để tô màu cho hình ảnh thang màu xám, là kiến trúc chính cho đề tài nghiên cứu lần này. U-net là một loại mạng CNN bao gồm các phần down-sampling và up-sampling. Đầu vào của mạng này là ảnh xám với kích thước 128x128x1 và nó sẽ tạo ra ảnh màu RGB với kích thước 128x128x3. Loss function được dùng trong bài toán này là Mean Squared Error (MSE) để phân biệt chất lượng giữa ảnh dự đoán và ảnh thực.
 ## Dữ liệu:
-Tập dữ liệu sử dụng ở đây là CelebA chứa khuôn mặt của những người nổi tiếng. Tập dữ liệu này khá lớn (202,599 ảnh) nhưng ta sẽ chỉ sử dụng 10,000 ảnh trong này để huấn luyện.
+Tập dữ liệu sử dụng ở đây là CelebA chứa khuôn mặt của những người nổi tiếng. Tập dữ liệu này khá lớn (202,599 ảnh) nhưng ta sẽ chỉ sử dụng 10,000 ảnh lưu trong thư mục **data_raw** để huấn luyện.
 
 Tham khảo và tải về tập dữ liệu: https://www.kaggle.com/datasets/jessicali9530/celeba-dataset
 
